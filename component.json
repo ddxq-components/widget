@@ -1,0 +1,18 @@
+{
+  "name": "widget",
+  "version": "1.0.0",
+  "description": "Widget 是 UI 组件的基础类，约定了组件的基本生命周期，实现了一些通用功能。基于 Widget 可以构建出任何你想要的 Web 界面组件。此库依赖全局变量$, 需要jQuery或Zepto将提前$注入到全局变量中。",
+  "keywords": [
+    "infrastructure",
+    "ui"
+  ],
+  "homepage": "http://aralejs.org/widget/",
+  "scripts": [
+    "widget.js",
+    "daparser.js"
+  ],
+  "main":"widget.js",
+  "dependencies": {
+    "ddxq-components/base": "1.0.0"
+  }
+}
