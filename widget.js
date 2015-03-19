@@ -88,7 +88,7 @@ var Widget = Base.extend({
       dataAttrsConfig = DAParser.parseElement(element)
     }
 
-    return dataAttrsConfig
+    return dataAttrsConfig || {}
   },
 
   // 构建 this.element
